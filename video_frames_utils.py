@@ -69,7 +69,7 @@ def extract_audio(video_path, audio_path):
     clip.audio.write_audiofile(audio_path)
 
 #concatenate the audio and the stitched video to form the original video
-def concat_audio_video(video_path, audio_path, output_path)
+def concat_audio_video(video_path, audio_path, output_path):
     input_video = ffmpeg.input(video_path)
     input_audio = ffmpeg.input(audio_path)
 
